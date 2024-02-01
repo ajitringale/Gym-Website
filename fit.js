@@ -38,6 +38,7 @@ challenge.forEach(function(detail) {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique hic exercitationem dolores porro nulla. Quae repellendus id iste reprehenderit nihil ipsa dicta dolore dolorem?</p>
             <a href="" id="join">Join</a>
             <a href="" class="back">Back</a>
+            <div class="space"></div>
             `
 
             document.querySelector("body").appendChild(div)
