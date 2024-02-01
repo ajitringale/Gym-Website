@@ -36,7 +36,7 @@ challenge.forEach(function(detail) {
             <img src=${detail.firstElementChild.src} alt="">
             <h3>About</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique hic exercitationem dolores porro nulla. Quae repellendus id iste reprehenderit nihil ipsa dicta dolore dolorem?</p>
-            <a href="">Join</a>
+            <a href="" id="join">Join</a>
             <a href="" class="back">Back</a>
             `
 
