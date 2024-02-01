@@ -524,6 +524,12 @@ input:placeholder-shown {
         width: 80%;
         height: 80%;
     }
+    .challenges .card {
+        width: 300px
+    }
+    .plancard {
+        width: 270px;
+    }
 }
 
 @media screen and (max-width: 325px) {
@@ -545,6 +551,12 @@ input:placeholder-shown {
     #eye {
         position: absolute;
         top: 17px;
+    }
+    .challenges .card {
+        width: 270px;
+    }
+    .plancard {
+        width: 250px;
     }
 }
 
