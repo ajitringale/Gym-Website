@@ -469,8 +469,8 @@ input:placeholder-shown {
         width: 99%;
     }
     .slider img {
-        width: 100px;
-        height: 120px;
+        width: 120px;
+        height: 150px;
         margin-inline: 2px;
     }
     .connect {
