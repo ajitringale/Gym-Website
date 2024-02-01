@@ -299,8 +299,8 @@ a.active,a:hover {
     font-size: 30px;
 }
 .detailCard img {
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     justify-content: space-around;
     margin-top: 30px;
 }
@@ -308,7 +308,7 @@ a.active,a:hover {
     font-size: 20px;
     margin-top: 22px;
 }
-.detailCard a {
+.detailCard #join {
     padding: 5px 22px;
     width: 90px;
     height: 33px;
