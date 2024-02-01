@@ -307,6 +307,9 @@ a.active,a:hover {
 .detailCard p {
     font-size: 20px;
     margin-top: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
 }
 .detailCard #join {
     padding: 5px 22px;
@@ -316,7 +319,6 @@ a.active,a:hover {
     border: none;
     font-size: 18px;
     background-color:aliceblue;
-    margin-top: 22px;
     cursor: pointer;
 }
 .detailCard .back {
@@ -327,6 +329,9 @@ a.active,a:hover {
     color: white;
     background-color:red;
     text-decoration:none;
+}
+.detailCard .space {
+    margin-top: 20px;
 }
 
 /* contact icon */
@@ -440,6 +445,23 @@ input:placeholder-shown {
         height: 160px;
         margin-inline: 6px;
     }
+    .detailCard img {
+        width: 60%;
+        height: 60;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .detailCard img {
+        width: 60%;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .detailCard img {
+        width: 70%;
+        height: 70%;
+    }
 }
 
 @media screen and (max-width:510px) {
@@ -490,7 +512,18 @@ input:placeholder-shown {
     } 
     h1 {
         font-size: 35px;
-    }  
+    }
+    .detailCard img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .detailCard img {
+        width: 80%;
+        height: 80%;
+    }
 }
 
 @media screen and (max-width: 325px) {
