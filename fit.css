@@ -530,6 +530,11 @@ input:placeholder-shown {
     .plancard {
         width: 270px;
     }
+    .slider img {
+        width: 120px;
+        height: 150px;
+        margin-inline: 2px;
+    }
 }
 
 @media screen and (max-width: 325px) {
@@ -557,6 +562,11 @@ input:placeholder-shown {
     }
     .plancard {
         width: 250px;
+    }
+    .slider img {
+        width: 100px;
+        height: 120px;
+        margin-inline: 2px;
     }
 }
 
