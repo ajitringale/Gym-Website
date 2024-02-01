@@ -308,7 +308,8 @@ a.active,a:hover {
     font-size: 20px;
     margin-top: 22px;
 }
-.detailCard button {
+.detailCard button a {
+    padding: 5px 22px;
     width: 90px;
     height: 33px;
     border-radius: 22px;
@@ -318,7 +319,7 @@ a.active,a:hover {
     margin-top: 22px;
     cursor: pointer;
 }
-.detailCard a {
+.detailCard .back {
     padding: 5px 22px;
     border-radius: 22px;
     border:none;
